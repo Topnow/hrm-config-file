@@ -9,3 +9,8 @@ hrm:
   swagger:
     title: 静态化页面管理服务
     description: 静态化页面管理接口文档说明
+    
+#开启feign  hystrix
+feign:
+  hystrix:
+    enabled: true
