@@ -1,0 +1,11 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: USER-SERVICE
+  datasource:
+    url: jdbc:mysql:///hrm-user?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+hrm:
+  swagger:
+    title: 用户管理服务
+    description: 用户管理接口文档说明
